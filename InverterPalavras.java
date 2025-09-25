@@ -48,9 +48,12 @@ public class InverterPalavras {
             for (char c : palavra.toCharArray()) {
                 pilha.push(c);
             }
-
             while (!pilha.estaVazia()) {
                 resultado.append(pilha.pop());
+            }
+
+            if (i < palavras.length - 1) {
+                resultado.append(" ");
             }
         }
         return resultado.toString();

@@ -1,0 +1,2 @@
+Atividade de estrutura de dados;
+Criar uma estrutura com pilhas que invertem os caracteres de uma string; Recebe e insere os caracteres na pilha, depois remove os caracteres listando ao contrário, isso deixa as palavras ao contrário.
